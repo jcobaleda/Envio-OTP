@@ -18,7 +18,7 @@ def hayconexion():
 #si tiene conexion
 if hayconexion(): 
     
-#Envio de Correo
+#vista del Correo
     destinatario = sys.argv[1]
     asunto = 'Codigo OTP'
     mensaje = MIMEMultipart()
